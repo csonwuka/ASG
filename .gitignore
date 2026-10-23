@@ -1,0 +1,34 @@
+# Marking schemes / score sheets (may contain real exam answers or student results)
+answer_key*.csv
+marking_scheme*.csv
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+
+# ---- Streamlit ----
+# Keep .streamlit/config.toml (the theme) but never commit secrets
+.streamlit/secrets.toml
+
+# ---- Model downloads / caches (optional name-reading feature) ----
+.cache/
+huggingface/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Environment files ----
+.env
+.env.*

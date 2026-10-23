@@ -1,0 +1,8 @@
+streamlit>=1.40
+opencv-python-headless
+numpy
+pandas
+# Optional - automatic handwriting recognition of names (large download, slower marking):
+# transformers
+# torch
+# pillow
